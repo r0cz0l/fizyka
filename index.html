@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FIZYKA</title>
+        
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <style>
+            body{
+             background-image: url(fizyka.jpg);
+             background-size: cover;
+            }
+            </style>
+            </head>
+            <body>
+            <marquee behavior="alternate"><h1>FIZYKA</h1></marquee>
+            <h2>Nauka przyrodnicza, zajmująca się badaniem najbardziej fundamentalnych i uniwersalnych 
+                właściwości oraz przemian materii i energii, a także oddziaływań między nimi. 
+                Do opisu zjawisk fizycznych fizycy używają wielkości fizycznych, 
+                wyrażonych za pomocą pojęć matematycznych, takich jak liczba, wektor i tensor. 
+                Tworząc hipotezy i teorie fizyki, budują relacje pomiędzy wielkościami fizycznymi.</h2>
+                <h5>WZORY:</h5>
+                <center><div>
+                <div class="wzory">    
+                   <center><img src="wzory112.jpg";></center>
+                </div>
+                <div class="wzory">
+                    <center> <button class="button" type="button" onclick="obliczenia()">Wynik</button></center>  
+                </div>
+                <br>
+            
+                <div class="wzory">    
+                    <center><img src="wzory123.jpg";></center>
+                 </div>
+                 <div class="wzory">
+                    <center> <button class="button" type="button" onclick="obliczenia1()">Wynik</button></center>  
+                </div>
+                <br>
+                <div class="wzory">    
+                    <center><img src="wzory132.jpg";></center>
+                 </div>
+                 <div class="wzory">
+                     <center> <button class="button" type="button" onclick="obliczenia()">Wynik</button></center>  
+                 </div>
+                 <br>
+                <div class="wzory">    
+                    <center><img src="wzory321.jpg";></center>
+                 </div>
+                 <div class="wzory">
+                     <center> <button class="button" type="button" onclick="obliczenia()">Wynik</button></center>  
+                 </div>
+            </center>
+            </div>
+            <h6>Wprowdź swoje liczby</h6>
+            <center><input  type="number" id="liczb1"><h7>Liczba 1</h7></input>
+            <input  type="number" id="liczba2">Liczba 2</input>
+        </center>
+
+                
+                
+            
+            
+            
+            <script type="text/javascript">
+            var wynik;
+            function obliczenia(){
+                var liczb1 = document.getElementById("liczb1").value;
+                var liczba2 = document.getElementById("liczba2").value;
+                wynik = alert(liczb1/liczba2);
+                
+                
+                
+            }function obliczenia1(){
+                var liczb1 = document.getElementById("liczb1").value;
+                var liczba2 = document.getElementById("liczba2").value;
+                wynik = alert(liczb1*liczba2);
+                
+                
+                
+            }
+            
+
+            </script>
+            
+    </body>        
+</html>
+            
+            
